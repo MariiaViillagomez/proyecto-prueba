@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0; /* Cambia el color a negro */
+  --background-end-rgb: 0, 0, 0; /* Cambia el color a negro */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0; /* Cambia el color a negro */
+    --background-end-rgb: 0, 0, 0; /* Cambia el color a negro */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url('/imgxander/xander.jpg') center/35% no-repeat; /* Ajusta la ruta según la ubicación de tu imagen */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

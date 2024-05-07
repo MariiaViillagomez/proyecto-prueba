@@ -1,0 +1,42 @@
+
+.Search-Container{
+  width: 58rem;
+  position: absolute;
+  bottom: 40%;
+  
+}
+.table-container {
+  
+  width: 10%; 
+  max-width: 10px; 
+  overflow-x: auto; 
+  margin-left:20rem ;
+  padding-bottom:75rem ;
+}
+
+
+.table-container th,
+.table-container td {
+ 
+  border: 1px solid #ccc; 
+  padding: 4px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  font-size: 14px; 
+
+
+.Search-input {
+  margin-left:20rem ;
+  font-size: 16px; 
+  padding: 9px;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 350px; 
+  overflow-y: auto; 
+}
+
+.Search-Container .input-wrapper {
+  overflow-y: auto;
+  height: 200px;
+}
