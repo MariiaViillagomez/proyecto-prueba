@@ -14,12 +14,12 @@ function ButtonUsers() {
 
   return (
     <div className="ButtonUsers-Container">
-      {/* Renderiza el botón "Agregar Usuario" */}
+      
       <button className="ButtonUsers" style={{ fontSize: '20px', padding: '8px 30px' }} onClick={handleAddUserClick}>
         {showForm ? 'Cerrar Formulario' : 'Agregar Usuario'}
       </button>
       
-      {/* Renderiza el formulario de registro si showForm es verdadero */}
+   
       {showForm && (
         <div className="FormRegis">
           <RegiUsers/>
